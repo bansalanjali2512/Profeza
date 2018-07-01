@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTS" time="133" tests="1" failures="6" errors="0">
+   <testsuite name="LoginTS" tests="1" failures="6" errors="0" time="133" timestamp="2018-06-07 14:50:02" hostname="Anjali - Anjali-PC" id="Test Suites/LoginTS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Anjali\\Katalon Studio\\ProfezaWebTesting\\Reports\\LoginTS\\20180607_144955"/>
+         <property name="logFiles" value="C:\\Users\\Anjali\\Katalon Studio\\ProfezaWebTesting\\Reports\\LoginTS\\20180607_144955\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anjali - Anjali-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.229.1"/>
+         <property name="sessionId" value="760a4224-e5cd-4ea8-8c31-e8b146f15bb3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/T1_nodetails" classname="Test Cases/Login/T1_nodetails" status="PASSED">
+         <system-out><![CDATA[2018-06-07 14:50:02 - [TEST_CASE][PASSED] - Test Cases/Login/T1_nodetails: Test Cases/Login/T1_nodetails
+
+2018-06-07 14:50:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-07 14:50:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-07 14:50:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://54.144.245.87/test/login-page.html' successfully
+
+2018-06-07 14:51:50 - [MESSAGE][PASSED] - Navigate to 'https://54.144.245.87/test/login-page.html' successfully
+
+2018-06-07 14:51:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginOR/T1_nodetails/Page_Login  Profeza/a_Login' is clicked on
+
+2018-06-07 14:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginOR/T1_nodetails/Page_Login  Profeza/a_Login' is clicked on
+
+2018-06-07 14:51:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginOR/T1_nodetails/Page_Login  Profeza/div_Please enter email' is clicked on
+
+2018-06-07 14:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginOR/T1_nodetails/Page_Login  Profeza/div_Please enter email' is clicked on
+
+2018-06-07 14:51:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoginOR/T1_nodetails/Page_Login  Profeza/div_Please enter email' is present
+
+2018-06-07 14:51:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-06-07 14:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/LoginOR/T1_nodetails/Page_Login  Profeza/div_Please enter email' is present
+
+2018-06-07 14:51:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-07 14:51:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/T2_invalidemail" classname="Test Cases/Login/T2_invalidemail" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'invalidemail' of object 'Object Repository/LoginOR/T2_invalidemail/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})"/>
+         <system-out><![CDATA[2018-06-07 14:51:51 - [TEST_CASE][FAILED] - Test Cases/Login/T2_invalidemail: Test Cases/Login/T2_invalidemail FAILED because (of) Unable to set text 'invalidemail' of object 'Object Repository/LoginOR/T2_invalidemail/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})
+
+2018-06-07 14:51:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-07 14:51:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-07 14:51:55 - [TEST_STEP][FAILED] - setText: Unable to set text 'invalidemail' of object 'Object Repository/LoginOR/T2_invalidemail/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})
+
+2018-06-07 14:51:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-07 14:51:59 - [MESSAGE][FAILED] - Unable to set text 'invalidemail' of object 'Object Repository/LoginOR/T2_invalidemail/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-out>
+         <system-err><![CDATA[2018-06-07 14:51:51 - [TEST_CASE][FAILED] - Test Cases/Login/T2_invalidemail: Test Cases/Login/T2_invalidemail FAILED because (of) Unable to set text 'invalidemail' of object 'Object Repository/LoginOR/T2_invalidemail/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/T3_unregisteredemail" classname="Test Cases/Login/T3_unregisteredemail" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73)"/>
+         <system-out><![CDATA[2018-06-07 14:51:59 - [TEST_CASE][FAILED] - Test Cases/Login/T3_unregisteredemail: Test Cases/Login/T3_unregisteredemail FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73)
+
+2018-06-07 14:52:00 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73)
+
+2018-06-07 14:52:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-07 14:52:00 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73)]]></system-out>
+         <system-err><![CDATA[2018-06-07 14:51:59 - [TEST_CASE][FAILED] - Test Cases/Login/T3_unregisteredemail: Test Cases/Login/T3_unregisteredemail FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/T4_registeredemail_nopassword" classname="Test Cases/Login/T4_registeredemail_nopassword" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T4_registeredemail_nopassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})"/>
+         <system-out><![CDATA[2018-06-07 14:52:00 - [TEST_CASE][FAILED] - Test Cases/Login/T4_registeredemail_nopassword: Test Cases/Login/T4_registeredemail_nopassword FAILED because (of) Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T4_registeredemail_nopassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})
+
+2018-06-07 14:52:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-07 14:52:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-07 14:52:02 - [TEST_STEP][FAILED] - setText: Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T4_registeredemail_nopassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})
+
+2018-06-07 14:52:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-07 14:52:09 - [MESSAGE][FAILED] - Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T4_registeredemail_nopassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-out>
+         <system-err><![CDATA[2018-06-07 14:52:00 - [TEST_CASE][FAILED] - Test Cases/Login/T4_registeredemail_nopassword: Test Cases/Login/T4_registeredemail_nopassword FAILED because (of) Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T4_registeredemail_nopassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/T5_registeredemail_shortpassword" classname="Test Cases/Login/T5_registeredemail_shortpassword" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03)"/>
+         <system-out><![CDATA[2018-06-07 14:52:09 - [TEST_CASE][FAILED] - Test Cases/Login/T5_registeredemail_shortpassword: Test Cases/Login/T5_registeredemail_shortpassword FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03)
+
+2018-06-07 14:52:09 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03)
+
+2018-06-07 14:52:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-07 14:52:09 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03)]]></system-out>
+         <system-err><![CDATA[2018-06-07 14:52:09 - [TEST_CASE][FAILED] - Test Cases/Login/T5_registeredemail_shortpassword: Test Cases/Login/T5_registeredemail_shortpassword FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20408, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f0d33f85-ea32-4710-a953-03b2afb82b03)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/T6_registeredemail_wrongpassword" classname="Test Cases/Login/T6_registeredemail_wrongpassword" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T6_registeredemail_wrongpassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})"/>
+         <system-out><![CDATA[2018-06-07 14:52:09 - [TEST_CASE][FAILED] - Test Cases/Login/T6_registeredemail_wrongpassword: Test Cases/Login/T6_registeredemail_wrongpassword FAILED because (of) Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T6_registeredemail_wrongpassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})
+
+2018-06-07 14:52:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-07 14:52:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-07 14:52:12 - [TEST_STEP][FAILED] - setText: Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T6_registeredemail_wrongpassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})
+
+2018-06-07 14:52:15 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-07 14:52:15 - [MESSAGE][FAILED] - Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T6_registeredemail_wrongpassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-out>
+         <system-err><![CDATA[2018-06-07 14:52:09 - [TEST_CASE][FAILED] - Test Cases/Login/T6_registeredemail_wrongpassword: Test Cases/Login/T6_registeredemail_wrongpassword FAILED because (of) Unable to set text 'anjalibansal079@gmail.com' of object 'Object Repository/LoginOR/T6_registeredemail_wrongpassword/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/T7_correctdetails" classname="Test Cases/Login/T7_correctdetails" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3)"/>
+         <system-out><![CDATA[2018-06-07 14:52:15 - [TEST_CASE][FAILED] - Test Cases/Login/T7_correctdetails: Test Cases/Login/T7_correctdetails FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3)
+
+2018-06-07 14:52:15 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3)
+
+2018-06-07 14:52:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-07 14:52:15 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3)]]></system-out>
+         <system-err><![CDATA[2018-06-07 14:52:15 - [TEST_CASE][FAILED] - Test Cases/Login/T7_correctdetails: Test Cases/Login/T7_correctdetails FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 760a4224-e5cd-4ea8-8c31-e8b146f15bb3)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-07 14:50:02 - [TEST_SUITE][FAILED] - LoginTS: Test Cases/Login/T2_invalidemail FAILED because (of) Unable to set text 'invalidemail' of object 'Object Repository/LoginOR/T2_invalidemail/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-out>
+      <system-err><![CDATA[2018-06-07 14:50:02 - [TEST_SUITE][FAILED] - LoginTS: Test Cases/Login/T2_invalidemail FAILED because (of) Unable to set text 'invalidemail' of object 'Object Repository/LoginOR/T2_invalidemail/Page_Login  Profeza/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ANJALI-PC', ip: '192.168.229.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20252, moz:profile: C:\Users\Anjali\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4dfb047-82ca-43fe-bf37-bff80c091f73
+*** Element info: {Using=xpath, value=//input[@id = 'email' and @type = 'email']})]]></system-err>
+   </testsuite>
+</testsuites>
